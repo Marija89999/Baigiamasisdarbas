@@ -1,0 +1,374 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    max-width: 100vw;
+    overflow-x: hidden;
+    
+    font-family: "Lato", serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 16px 20px;
+    font-weight: 500;
+    width: calc(100% - 40px);
+}
+
+.navbar a {
+    text-decoration: none;
+
+    color: white;
+    background-color: rgb(0, 123, 255);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.email-sign-up-container {
+    background: url('content/bg-masthead.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-header, .sign-up-header-smaller{
+    width: calc(100% - 40px);
+    text-align: center;
+    padding: 80px 20px 26px;
+    color: white;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.email-input, .email-input-smaller {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: calc(100% - 40px);
+    padding: 20px 0 60px 0;
+}
+
+.email-input > input, .email-input-smaller > input{
+
+
+    width: calc(100% - 18px);
+    max-width: 290px;
+    height: 33px;
+    
+    border-radius: 5px;
+    border: 0;
+    
+    padding: 0 0 0 10px;
+    margin: 0 8px 0 0;
+}
+
+.email-input > a, .email-input-smaller > a{
+    text-decoration: none;
+
+    width: calc(100% - 40px);
+    max-width: 268px;
+
+    color: white;
+    background-color: rgb(0, 123, 255);
+    padding: 7px 16px;
+    margin: 10px 8px 0 0;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.feature-section-container {
+    padding: 80px 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(248, 249, 250);
+
+}
+
+.feature-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 300px;
+
+    margin: 20px 0;
+}
+
+.feature-section-header{
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.feature-section-description{
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.feature-section-img{
+    width: 60px;
+    height: 60px;
+
+    margin: 0 0 10px;
+}
+
+.feature-swap-grid-card{
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: white;
+}
+
+.feature-swap-grid-card > img {
+    width: 100%;
+    height: 300px;
+
+    overflow: hidden;
+}
+
+.feature-swap-grid-text-container {
+    width: calc(100% - 80px);
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-swap-grid-text-header{
+    font-weight: bold;
+    font-size: 18px;
+
+    margin: 0 0 10px 0;
+}
+
+.feature-swap-grid-text-description{
+    font-weight: 300;
+}
+
+.reviews-container{
+    padding: 60px;
+    background-color: rgb(248, 249, 250);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-container-inside{
+    margin: 0 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-container-header{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px 0 0 0;
+}
+
+.review > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.reviewer{
+    margin: 6px 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.review-description{
+    margin: 6px 0 0;
+
+    text-align: center;
+    font-weight: 300;
+}
+
+.sign-up-header-smaller{
+    padding: 40px 20px 0;
+}
+
+.email-input-smaller {
+    padding: 20px 0 60px 0;
+}
+
+.footer-left-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    width: calc(100% - 40px);
+
+    padding: 40px 20px;
+
+    background-color: rgb(248, 249, 250);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 6px 0;
+}
+
+.footer-link-section > a {
+    color: rgb(0, 144, 255);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.link-sepperator{
+    margin: 0 6px;
+}
+
+.reverved-disclaimer{
+    font-size: 14px;
+}
+
+.footer-right-container{
+    margin: 10px 0 0 0;
+
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right-container > img{
+    width: 20px;
+    height: 20px;
+
+    margin-right: 6px;
+}
+
+
+@media only screen and (min-width: 720px) {
+
+    .sign-up-header, .sign-up-header-smaller {
+        width: 50%;
+    }
+    
+    .email-input, .email-input-smaller{
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+
+        padding: 20px 0 100px 0;
+    }
+
+    .email-input > a, .email-input-smaller > a  {
+        margin: 0 0 0 8px;
+        width: 60px;
+    }
+
+
+    .feature-section-container{
+        flex-direction: row;
+        justify-content: center;
+
+        padding: 80px 40px 60px;
+    }
+
+    .feature-section-card{
+        width: calc(33% - 40px);
+        padding:  0 20px;
+        max-width: none;
+    }
+
+    .feature-swap-grid-card{
+        flex-direction: row;
+    }
+
+    .feature-swap-grid-card:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+
+    .feature-swap-grid-text-container{
+        width: calc(50% - 80px);
+    }
+
+    .feature-swap-grid-card > img {
+        width: 50%;
+        height: 400px;
+    }
+
+    .reviews-container{
+        padding: 60px 20px;
+    }
+
+    .reviews-container-inside{
+        margin: 40px 0;
+        flex-direction: row;
+
+        width: 100%;
+    }
+
+    .review{
+        width: calc(33% - 20px);
+        margin: 0 10px;
+    }
+
+    
+    .footer-container{
+        flex-direction: row;
+    }
+
+    .footer-left-container{
+        width: calc(50% - 40px);
+
+        align-items: flex-start;
+
+        margin: 0 0 0 40px;
+    }
+
+    .footer-right-container{
+        width: 50%;
+    }
+
+    .footer-right-container > img{
+        margin-right: 16px;
+    }
+}
