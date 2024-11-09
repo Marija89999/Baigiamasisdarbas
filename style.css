@@ -27,6 +27,10 @@ body {
     border-radius: 5px;
 }
 
+.navbar a:hover {
+    background-color: #0b35db;
+}
+
 
 .email-sign-up-container {
     background: url('content/bg-masthead.jpg');
@@ -87,6 +91,10 @@ body {
     border-radius: 5px;
 
     text-align: center;
+}
+
+.email-input > a:hover, .email-input-smaller > a:hover {
+    background-color: #0b35db;
 }
 
 .feature-section-container {
